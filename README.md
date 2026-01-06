@@ -1,7 +1,7 @@
 <h1 align="center">
   <span style="color:#306998;">Hashtag Treinamentos</span> — <br>
-  <span style="color:#FFD43B;">Automação de E-mails com Python 📧</span>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" style="vertical-align:middle;"/>
+  <span style="color:#FFD43B;">Automação de E-mails com Python </span> <br>
+  📧<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" style="vertical-align:middle;"/>
 </h1>
 
 <p align="center">
