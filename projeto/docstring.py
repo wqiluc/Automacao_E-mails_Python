@@ -20,28 +20,28 @@ utilizando Python, simulando um fluxo comum em ambientes corporativos.
 
 {AmareloClaro}📝 Passo a passo do desafio:
 
-1️⃣ Acessar o sistema da empresa
-- 🌐 Abrir o navegador
-- 🔗 Digitar ou colar o link do sistema
-- 🔑 Realizar login, se necessário
+1️⃣ Acessar o sistema da empresa(no nosso caso, drive - simulador):
+- 🌐 Abrir o navegador;
+- 🔗 Digitar ou colar o link do sistema:
+- 🔑 Realizar login, se necessário.
 
-2️⃣ Navegar até a área de relatórios
-- 🗂️ Localizar a seção de relatórios
-- 📄 Selecionar o relatório desejado
+2️⃣ Navegar até a área de relatórios:
+- 🗂️ Localizar a seção de relatórios;
+- 📄 Selecionar o relatório desejado.
 
-3️⃣ Realizar o download da base de dados
-- ⬇️ Baixar o arquivo Excel
-- 💾 Salvar em um local acessível
+3️⃣ Realizar o download da base de dados/
+- ⬇️ Baixar o arquivo Excel:
+- 💾 Salvar em um local acessível.
 
-4️⃣ Calcular os principais indicadores
-- 📊 Manipular dados com Pandas
-- 💰 Calcular faturamento total
-- 📦 Calcular quantidade de produtos vendidos
+4️⃣ Calcular os principais indicadores;
+- 📊 Manipular dados com Pandas;
+- 💰 Calcular faturamento total;
+- 📦 Calcular quantidade de produtos vendidos.
 
-5️⃣ Enviar e-mail com os indicadores
-- ✉️ Formatar o e-mail
-- 📝 Inserir assunto e corpo
-- 📤 Enviar para a diretoria
+5️⃣ Enviar e-mail com os indicadores ==>:
+- ✉️ Formatar o e-mail;
+- 📝 Inserir assunto e corpo;
+- 📤 Enviar para a diretoria.
 {Reset}
 """)
 # Fim do docstring
