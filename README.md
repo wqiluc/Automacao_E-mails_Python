@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-Repositório de aplicação em Python para <strong>automação de e-mails corporativos</strong>, integração com planilhas, geração de relatórios gerenciais e envio automático de mensagens personalizadas. 💻
+Projeto de uma aplicação real em Python para <strong>automação de e-mails corporativos</strong>, integração com planilhas, geração de relatórios gerenciais e envio automático de mensagens personalizadas. 💻
 <br><br>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" width="75"/>
 </p>
