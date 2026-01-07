@@ -1,7 +1,7 @@
 <h1 align="center">
   <span style="color:#306998;">Hashtag Treinamentos</span> — <br>
-  <span style="color:#FFD43B;">Automação de E-mails com Python 📧</span>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" style="vertical-align:middle;"/>
+  <span style="color:#FFD43B;">Automação de <br> E-mails com Python </span> <br>
+  📧<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="36" style="vertical-align:middle;"/>
 </h1>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-Repositório de aplicação em Python para <strong>automação de e-mails corporativos</strong>, integração com planilhas, geração de relatórios gerenciais e envio automático de mensagens personalizadas. 💻
+Projeto de uma aplicação real em Python para <strong>automação de e-mails corporativos</strong>, integração com planilhas, geração de relatórios gerenciais e envio automático de mensagens personalizadas. 💻
 <br><br>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" width="75"/>
 </p>
@@ -83,6 +83,7 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 <div align="center">
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="28"/>
 <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=black" height="28"/>
+<img src="https://img.shields.io/badge/-Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-PyAutoGUI-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-Pyperclip-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-OpenPyXL-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
