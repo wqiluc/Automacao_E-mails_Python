@@ -66,4 +66,5 @@ pyperclip.copy(corpo)
 pyautogui.hotkey("command", "v")
 
 sleep(2)
-pyautogui.click(x=500, y=730)
+
+print(f"\n {Negrito}E-mail{Reset} {Verde}enviado com sucesso! ✅📧🤖 {Reset}\n", end=" ")
