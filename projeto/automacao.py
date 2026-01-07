@@ -9,10 +9,14 @@ import openpyxl
 os.system("open -a 'Google Chrome'")
 sleep(2)
 pyautogui.write("https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga")
-sleep(2)
+
 pyautogui.press("enter")
-sleep(7)
-pyautogui.click(x = 260,y = 230)
+sleep(2)
+pyautogui.click(x=260, y=230)
+sleep(3)
+pyautogui.click(x=300, y=300)
+sleep(4)
+pyautogui.press("enter")
 
 caminho_rota = (r"/Users/lucaspaguettipereira/Downloads/Vendas.xlsx") #atente-se em mudar o caminho do seu arquivo
 
@@ -21,7 +25,7 @@ faturamento_empresa = tabela_faturamento_empresa["Valor Final"].sum()
 quantidade_empresa_produtos = tabela_faturamento_empresa["Quantidade"].sum()
 
 print(f"\n {Negrito}Faturamento da Empresa:{Reset} {Verde}R${faturamento_empresa:.2f}{Reset}", end=" \n ")
-print(f"\n {Negrito}Produtos da empresa (em quantidade): {Reset}{Amarelo}{quantidade_empresa_produtos}{Reset}Produtos 📦", end=" \n ")
+print(f"\n {Negrito}Produtos da empresa (em quantidade): {Reset}{Amarelo}{quantidade_empresa_produtos}{Reset} Produtos 📦", end=" \n ")
 
 remetente = f"@testedeemailautomático.com"
 
@@ -60,3 +64,6 @@ pyautogui.press("tab")
 sleep(0.5)
 pyperclip.copy(corpo)
 pyautogui.hotkey("command", "v")
+
+sleep(2)
+pyautogui.click(x=500, y=730)
