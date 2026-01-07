@@ -13,20 +13,21 @@ pyautogui.press("enter")
 sleep(7)
 pyautogui.click(x = 260,y = 230)
 
-caminho = "/Users/lucaspaguettipereira/Downloads/Vendas.xlsx" #atente-se em mudar o caminho do seu arquivo
-tabela_faturamento_empresa = pd.read_excel(caminho)
+caminho_rota = "/Users/lucaspaguettipereira/Downloads/Vendas.xlsx" #atente-se em mudar o caminho do seu arquivo
+tabela_faturamento_empresa = pd.read_excel(caminho_rota)
 faturamento_empresa = tabela_faturamento_empresa["Valor Final"].sum()
 quantidade_empresa_produtos = tabela_faturamento_empresa["Quantidade"].sum()
 
 assunto = "Relatório de Vendas – Janeiro"
+
 corpo = f"""Prezados,
 
 Encaminho, abaixo, o relatório de vendas referente ao mês de janeiro 👇📊
 
 Resumo dos resultados:
-• Faturamento total: R$ {faturamento_empresa:,.2f}
-• Quantidade de produtos vendidos: {quantidade_empresa_produtos:.2f}
-Fico à disposição para quaisquer esclarecimentos adicionais.
+• Faturamento total: R$ {faturamento_empresa:,.2f} .
+• Quantidade de produtos vendidos: {quantidade_empresa_produtos:.2f} .
+Fico disposto para quaisquer esclarecimentos adicionais.
 
 Atenciosamente,
 Lucas Paguetti Pereira
