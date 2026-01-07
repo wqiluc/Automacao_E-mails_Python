@@ -16,10 +16,11 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
 
 <h2 align="center">👨🏻‍💻 Autor deste Repositório: </h2>
 <div align="center">
+  
 <strong>Lucas Paguetti Pereira</strong> 🧙‍♂️<br>
-🏫 Cesar School 🎓🧡<br>
+🏫 <strong>Instituição:</strong> Cesar School 🎓🧡<br>
 📍 Recife, Pernambuco — <strong>Brazil</strong> 🇧🇷
-<br><br>
+
 <a href="https://www.instagram.com/lucpaguetti/">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
@@ -65,7 +66,7 @@ Automacao_E-mails_Python/
 │   ├── __pycache__ = guarda os arquivos `.pyc (bytecode)` do Python para que os módulos rodem mais rápido sem recompilar. 
 │   ├── automacao.py
 │   ├── docstrings.py
-│   ├── notebooks.ipynb
+│   ├── docstrings.ipynb
 │   ├── cores.py
 │   └── Vendas.xlsx
 ├── README.md
@@ -95,7 +96,7 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 
 <br>
 
-<h1 align="center">⚡ Como Rodar</h1>
+<h1 align="center">⚡ Como Rodar: </h1>
 
 ### 1️⃣ Coloque a planilha na pasta Downloads
 
