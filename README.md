@@ -89,7 +89,7 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 <img src="https://img.shields.io/badge/-PyAutoGUI-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-Pyperclip-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-OpenPyXL-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/-Emails%20automatizados%20com%20Python-FF0000?style=for-the-badge&logo=gmail&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/-Emails%20automatizados%20com%20Python-FF0000?style=for-the-badge&logo=gmail&logoColor=white" height="28"/> <br>
 <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=black" height="28"/>
 <img src="https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=white" height="28"/>
 </div>
