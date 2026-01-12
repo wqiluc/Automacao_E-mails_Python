@@ -27,7 +27,7 @@ quantidade_empresa_produtos = tabela_faturamento_empresa["Quantidade"].sum()
 print(f"\n {Negrito}Faturamento da Empresa:{Reset} {Verde}R${faturamento_empresa:.2f}{Reset}", end=" \n ")
 print(f"\n {Negrito}Produtos da empresa (em quantidade): {Reset}{Amarelo}{quantidade_empresa_produtos}{Reset} Produtos 📦", end=" \n ")
 
-remetente = f"@testedeemailautomático.com"
+remetente = f"lpp2@cesar.school"
 
 assunto = f"Relatório de Vendas – Janeiro"
 corpo = f"""Prezados,
@@ -47,7 +47,7 @@ sleep(1)
 
 pyautogui.write("https://mail.google.com/mail/u/0/#inbox")
 pyautogui.press("enter")
-sleep(10)
+sleep(20)
 pyautogui.click(x=100, y=230)  
 sleep(2)
 
@@ -66,5 +66,7 @@ pyperclip.copy(corpo)
 pyautogui.hotkey("command", "v")
 
 sleep(2)
+
+pyautogui.hotkey("command", "enter")
 
 print(f"\n {Negrito}E-mail{Reset} {Verde}enviado com sucesso! ✅📧🤖 {Reset}\n", end=" ")
