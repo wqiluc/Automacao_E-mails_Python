@@ -82,11 +82,10 @@ pyautogui.hotkey("command", "enter")
 
 print(f"\n {Negrito}E-mail{Reset} {Verde}enviado com sucesso! ✅📧🤖 {Reset}\n", end=" ")
 
-print(f"""\n {Negrito}Drive com os dados:\n{Reset}
-
-{MagentaClaro}Pasta dados/
-├── Exportar{Reset}
-│   {Amarelo}└── Vendas.xlsx{Reset}
+print(f"""\n {Negrito}Drive com os dados:{Reset}
+{Negrito}Pasta dados/{Reset}
+{Amarelo}├── Exportar{Reset}
+│{Amarelo}└── Vendas.xlsx{Reset}
 {MagentaClaro}├── Apostila - Aula1.pdf
 ├── Arquivo Inicial - Aula 1.ipynb
 └── Arquivo Inicial - Aula 1.py \n\n{Reset}""")
