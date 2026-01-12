@@ -16,10 +16,11 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
 
 <h2 align="center">👨🏻‍💻 Autor deste Repositório: </h2>
 <div align="center">
+  
 <strong>Lucas Paguetti Pereira</strong> 🧙‍♂️<br>
-🏫 Cesar School 🎓🧡<br>
+🏫 <strong>Instituição:</strong> Cesar School 🎓🧡<br>
 📍 Recife, Pernambuco — <strong>Brazil</strong> 🇧🇷
-<br><br>
+
 <a href="https://www.instagram.com/lucpaguetti/">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
 </a>
@@ -62,9 +63,10 @@ Automacao_E-mails_Python/
 │   ├── Hashtag_logo.jpeg
 │   └── Hashtag_logo2.jpeg
 ├── projeto/
+│   ├── __pycache__ = guarda os arquivos `.pyc (bytecode)` do Python para que os módulos rodem mais rápido sem recompilar. 
 │   ├── automacao.py
 │   ├── docstrings.py
-│   ├── notebooks.ipynb
+│   ├── docstrings.ipynb
 │   ├── cores.py
 │   └── Vendas.xlsx
 ├── README.md
@@ -87,14 +89,14 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 <img src="https://img.shields.io/badge/-PyAutoGUI-FF4500?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-Pyperclip-4B0082?style=for-the-badge&logo=python&logoColor=white" height="28"/>
 <img src="https://img.shields.io/badge/-OpenPyXL-32CD32?style=for-the-badge&logo=python&logoColor=white" height="28"/>
-<img src="https://img.shields.io/badge/-Emails%20automatizados%20com%20Python-FF0000?style=for-the-badge&logo=gmail&logoColor=white" height="28"/>
+<img src="https://img.shields.io/badge/-Emails%20automatizados%20com%20Python-FF0000?style=for-the-badge&logo=gmail&logoColor=white" height="28"/> <br>
 <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=black" height="28"/>
 <img src="https://img.shields.io/badge/-GitHub-000000?style=for-the-badge&logo=github&logoColor=white" height="28"/>
 </div>
 
 <br>
 
-<h1 align="center">⚡ Como Rodar</h1>
+<h1 align="center">⚡ Como Rodar: </h1>
 
 ### 1️⃣ Coloque a planilha na pasta Downloads
 

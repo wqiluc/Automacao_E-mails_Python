@@ -13,6 +13,8 @@ utilizando Python, simulando um fluxo comum em ambientes corporativos.
 - 🐍 Python: Linguagem principal do projeto.
 - 🐼 Pandas: Manipulação de dados e cálculo de indicadores como faturamento e quantidade de produtos vendidos.
 - 🧭 PyAutoGUI: Automatiza ações no sistema operacional (abrir navegador, clicar, digitar, navegar).
+- 📎 PyperClip: Função dentro do PyAutoGUI que permite o copiar e colar de textos, 
+     que funciona melhor que o .write() do próprio PyAutoGUI.
 - ⏰ from time import sleep: Controla pausas entre ações automatizadas.
 - 💻 OS: Interage com o sistema operacional, abre aplicativos e manipula arquivos.
 - 📧 SMTPLib / Yagmail: Envio automático de e-mails com os indicadores calculados.
