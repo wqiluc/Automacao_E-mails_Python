@@ -30,11 +30,11 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
 <a href="https://www.linkedin.com/in/lucas-paguetti-pereira-70267339b/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
-<a href="mailto:lpp2@cesar.school">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=black">
+  <img src="https://img.shields.io/badge/Contact%20Me-lpp2%40cesar.school-FFA500?style=for-the-badge&logo=gmail&logoColor=orange"><br>
+</a>
 </a>
 <a href="https://discord.com/users/lucaspaguettipereira">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=black">
+  <img src="https://img.shields.io/badge/Discord-lucaspaguettipereira-5865F2?style=for-the-badge&logo=discord&logoColor=blue">
 </a>
 </div>
 
