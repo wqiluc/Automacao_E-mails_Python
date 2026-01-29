@@ -23,9 +23,7 @@ pyautogui.press("enter")
 sleep(4)
 pyautogui.press("enter")
 
-caminho_rota = (r"/Users/lucaspaguettipereira/Downloads/Vendas.xlsx") #atente-se em mudar o caminho do seu arquivo relativo, pelo arquivo utilizado nesta Automação ser em base de excel, e não csv (tabelas) 
-
-# OBS2: essa rota segue o modelo do macOS, se sua máquina for Windows ou Linux, atente-se em checar! :)
+caminho_rota = ("projeto/Vendas.xlsx")
 
 tabela_faturamento_empresa = pandas.read_excel(caminho_rota)
 faturamento_empresa = tabela_faturamento_empresa["Valor Final"].sum()

@@ -28,7 +28,7 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
   <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white">
 </a>
 <a href="https://www.linkedin.com/in/lucas-paguetti-pereira-70267339b/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"> <br>
 </a>
   <img src="https://img.shields.io/badge/Contact%20Me-lpp2%40cesar.school-FFA500?style=for-the-badge&logo=gmail&logoColor=orange"><br>
 </a>
@@ -55,7 +55,9 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
 </a>
 </div>
 
-<h2 align="center">📁 Estrutura do Projeto:</h2>
+<h2 align="center">🏛️ Arquitetura do Projeto: 
+<br>
+<img src="https://img.shields.io/badge/Arquitetura-111827?style=for-the-badge&logo=instructure&logoColor=white" alt="Arquitetura Badge"/></h2>
 
 <pre>
 Automacao_E-mails_Python/
@@ -71,7 +73,6 @@ Automacao_E-mails_Python/
 │   └── Vendas.xlsx
 ├── README.md
 └── LICENSE (MIT)
-<img src="https://img.shields.io/badge/Arquitetura-111827?style=for-the-badge&logo=instructure&logoColor=white" alt="Arquitetura Badge"/>
 </pre>
 
 <h2 align="center">🎯 Objetivo do Repositório:</h2>
@@ -96,13 +97,45 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 
 <br>
 
-<h1 align="center">⚡ Como Rodar: </h1>
+<h2 align="center">▶️ Como rodar o projeto: </h2>
 
-### 1️⃣ Coloque a planilha na pasta Downloads
+<p align="center">
+Este projeto lê a planilha <strong>Vendas.xlsx</strong> diretamente da pasta do projeto e executa a automação completa 🤖📊
+</p>
 
-O script depende da planilha `Vendas copy.xlsx`.  
+```bash
+# 1️⃣ Abrindo o terminal no seu sistema operacional
 
-- Faça o download do arquivo.  
-- Salve na pasta **Downloads** do seu computador 
--  Substitua `seu_usuario` pelo nome do seu usuário no computador.
+  # 🍎 macOS:
+  # Spotlight (⌘ + Espaço) → digite "Terminal" → Enter
 
+  # 🐧 Linux:
+  # Pressione Ctrl + Alt + T
+  # ou procure por "Terminal" no menu de aplicativos
+
+  # 🪟 Windows:
+  # Pressione Win + R → digite "cmd" → Enter
+  # ou pesquise por "Prompt de Comando" no menu Iniciar
+  # (Se estiver usando PowerShell, funciona da mesma forma)
+  # 2️⃣ Navegue até a pasta do projeto
+
+cd caminho/para/a/pasta/Projeto
+
+# Exemplo:
+# cd ~/Desktop/Projeto
+
+# 3️⃣ Confira se os arquivos estão no lugar certo 📂
+ls
+
+# Você deve ver algo como:
+# automação.py
+# Vendas.xlsx
+# Cores.py
+# Docstring.py
+# Docstring.ipynb
+
+# 4️⃣ (Opcional) Verifique se a planilha existe
+ls Vendas.xlsx
+
+# 5️⃣ Execute o script 🚀
+python3 automação.py
