@@ -66,6 +66,7 @@ Automacao_E-mails_Python/
 │   └── Hashtag_logo2.jpeg
 ├── projeto/
 │   ├── __pycache__ = guarda os arquivos `.pyc (bytecode)` do Python para que os módulos rodem mais rápido sem recompilar. 
+│   ├── gitignore
 │   ├── automacao.py
 │   ├── docstrings.py
 │   ├── docstrings.ipynb
