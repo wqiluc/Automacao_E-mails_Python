@@ -112,7 +112,7 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 
 ### ![Python](https://img.shields.io/badge/automação.py-3776AB?style=flat-square&logo=python&logoColor=black) `auto/python/automação.py`
 
-Script principal da automação. Abre o Google Chrome, acessa a pasta do Drive com a planilha de vendas, lê o arquivo **Vendas.xlsx** com **Pandas** e calcula o **faturamento total** e a **quantidade de produtos vendidos**. Em seguida, monta o assunto e o corpo do e-mail com o relatório e o envia **10 vezes** via Gmail — a cada envio, dispara também uma notificação push no celular através do webhook do **Pushcut**.
+Script principal da automação. Abre o Google Chrome (*navegador*), acessa a pasta do Drive com a planilha de vendas, lê o arquivo **Vendas.xlsx** com **Pandas** e calcula o **faturamento total** e a **quantidade de produtos vendidos**. Em seguida, monta o assunto e o corpo do e-mail com o relatório e o envia **10 vezes** via Gmail — a cada envio, dispara também uma notificação push no celular através do webhook da **Pushcut**.
 
 ### ![Python](https://img.shields.io/badge/apoio.py-3776AB?style=flat-square&logo=python&logoColor=black) `auto/python/apoio.py`
 
@@ -155,10 +155,10 @@ Monta assunto + corpo do e-mail com o relatório
 │                                         │
 │  Abre nova aba → Gmail                  │
 │  Cola destinatário / assunto / corpo    │
-│  ⌘ + Enter  →  envia o e-mail ✅         │
+│  ⌘ + Enter  →  envia o e-mail ✅        │
 │                                         │
-│  Abre nova aba → Pushcut (webhook)      │
-│  Notifica o celular do envio 📲          │
+│  copia url → Pushcut (webhook)          │
+│  Notifica o celular do envio 📲         │
 │                                         │
 └─────────────────────────────────────────┘
       │
