@@ -65,7 +65,7 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
   <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=black">
 </a>
 <a href="https://www.instagram.com/hashtagtreinamentos/">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=black">
 </a>
 <a href="https://www.linkedin.com/company/hashtag-treinamentos/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
@@ -80,15 +80,20 @@ Projeto de uma aplicação real em Python para <strong>automação de e-mails co
 Automacao_E-mails_Python<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="20" style="vertical-align:middle;"/>/
 ├── img <img src="https://img.shields.io/badge/Assets-green?style=flat&logo=image&logoColor=white" height="18"/>/
 │   ├── Hashtag_logo.jpeg <img src="https://img.shields.io/badge/Logo-111827?style=flat&logo=image&logoColor=white" height="18"/>
-│   └── Hashtag_logo2.jpeg <img src="https://img.shields.io/badge/Logo-111827?style=flat&logo=image&logoColor=white" height="18"/>
+│   ├── Hashtag_logo2.jpeg <img src="https://img.shields.io/badge/Logo-111827?style=flat&logo=image&logoColor=white" height="18"/>
+│   ├── pushcut_notify.jpeg <img src="https://img.shields.io/badge/Screenshot-1E285A?style=flat&logo=image&logoColor=white" height="18"/>
+│   └── pushcut_notify_phone.jpeg <img src="https://img.shields.io/badge/Screenshot-1E285A?style=flat&logo=image&logoColor=white" height="18"/>
 │
-├── projeto <img src="https://img.shields.io/badge/-Python-111827?style=flat&logo=python&logoColor=3776AB" height="18"/>/
-│   ├── automação.py <img src="https://img.shields.io/badge/-Automação_de_E--mails-111827?style=flat&logo=python&logoColor=009688" height="18"/> <img src="https://img.shields.io/badge/-Pandas-111827?style=flat&logo=pandas&logoColor=white" height="18"/> <img src="https://img.shields.io/badge/-PyAutoGUI-111827?style=flat&logo=python&logoColor=FF4500" height="18"/> <img src="https://img.shields.io/badge/-Pushcut-1E285A?style=for-the-badge&logo=data:image/png;base64,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" height="18"/>
-│   ├── apoio.py <img src="https://img.shields.io/badge/Dev_Helper-111827?style=flat&logo=python&logoColor=F7DF1E" height="18"/>
-│   ├── cores.py <img src="https://img.shields.io/badge/Terminal_Colors-111827?style=flat&logo=gnometerminal&logoColor=white" height="18"/>
-│   ├── docstring.py <img src="https://img.shields.io/badge/Docs-111827?style=flat&logo=markdown&logoColor=blue" height="18"/>
-│   ├── docstring.ipynb <img src="https://img.shields.io/badge/-Jupyter-111827?style=flat&logo=jupyter&logoColor=F37626" height="18"/>
-│   └── Vendas.xlsx <img src="https://img.shields.io/badge/-OpenPyXL-111827?style=flat&logo=microsoftexcel&logoColor=32CD32" height="18"/>
+├── auto <img src="https://img.shields.io/badge/-Python-111827?style=flat&logo=python&logoColor=3776AB" height="18"/>/
+│   ├── python <img src="https://img.shields.io/badge/Scripts-111827?style=flat&logo=python&logoColor=3776AB" height="18"/>/
+│   │   ├── automação.py <img src="https://img.shields.io/badge/-Automação_de_E--mails-111827?style=flat&logo=python&logoColor=009688" height="18"/> <img src="https://img.shields.io/badge/-Pandas-111827?style=flat&logo=pandas&logoColor=white" height="18"/> <img src="https://img.shields.io/badge/-PyAutoGUI-111827?style=flat&logo=python&logoColor=FF4500" height="18"/> <img src="https://img.shields.io/badge/-Pushcut-1E285A?style=for-the-badge&logo=data:image/png;base64,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" height="18"/>
+│   │   ├── apoio.py <img src="https://img.shields.io/badge/Dev_Helper-111827?style=flat&logo=python&logoColor=F7DF1E" height="18"/>
+│   │   ├── cores.py <img src="https://img.shields.io/badge/Terminal_Colors-111827?style=flat&logo=gnometerminal&logoColor=white" height="18"/>
+│   │   └── docstring.py <img src="https://img.shields.io/badge/Docs-111827?style=flat&logo=markdown&logoColor=blue" height="18"/>
+│   ├── ipynb <img src="https://img.shields.io/badge/-Jupyter-111827?style=flat&logo=jupyter&logoColor=F37626" height="18"/>/
+│   │   └── docstring.ipynb <img src="https://img.shields.io/badge/-Jupyter-111827?style=flat&logo=jupyter&logoColor=F37626" height="18"/>
+│   └── spec <img src="https://img.shields.io/badge/Spec-111827?style=flat-square&logo=jest&logoColor=green" alt="Spec Técnica" height="18"/>/
+│       └── Vendas.xlsx <img src="https://img.shields.io/badge/-OpenPyXL-111827?style=flat&logo=microsoftexcel&logoColor=32CD32" height="18"/>
 │
 ├── .gitignore <img src="https://img.shields.io/badge/-GitIgnore-111827?style=flat&logo=git&logoColor=F05032" height="18"/>
 ├── README.md <img src="https://img.shields.io/badge/-Markdown-111827?style=flat&logo=markdown&logoColor=white" height="18"/>
@@ -105,24 +110,24 @@ Aprender e aplicar técnicas de <strong>automação de e-mails com Python</stron
 <h2 align="center">📂 Scripts do Projeto <br>
 <img src="https://img.shields.io/badge/Scripts-111827?style=for-the-badge&logo=python&logoColor=3776AB" alt="Scripts Badge"/></h2>
 
-### ![Python](https://img.shields.io/badge/automação.py-3776AB?style=flat-square&logo=python&logoColor=black) `projeto/automação.py`
+### ![Python](https://img.shields.io/badge/automação.py-3776AB?style=flat-square&logo=python&logoColor=black) `auto/python/automação.py`
 
 Script principal da automação. Abre o Google Chrome, acessa a pasta do Drive com a planilha de vendas, lê o arquivo **Vendas.xlsx** com **Pandas** e calcula o **faturamento total** e a **quantidade de produtos vendidos**. Em seguida, monta o assunto e o corpo do e-mail com o relatório e o envia **10 vezes** via Gmail — a cada envio, dispara também uma notificação push no celular através do webhook do **Pushcut**.
 
-### ![Python](https://img.shields.io/badge/apoio.py-3776AB?style=flat-square&logo=python&logoColor=black) `projeto/apoio.py`
+### ![Python](https://img.shields.io/badge/apoio.py-3776AB?style=flat-square&logo=python&logoColor=black) `auto/python/apoio.py`
 
 Script auxiliar de desenvolvimento. Aguarda 7 segundos (tempo para posicionar o mouse) e imprime as coordenadas exatas do cursor via `pyautogui.position()`. Usado para descobrir as posições de tela (`pyautogui.click(x=..., y=...)`) necessárias em `automação.py`.
 
 ```py
-python3 projeto/apoio.py
+python3 auto/python/apoio.py
 # → posicione o mouse e aguarde 7s → imprime (x, y)
 ```
 
-### ![Python](https://img.shields.io/badge/cores.py-3776AB?style=flat-square&logo=python&logoColor=black) [![Referência ANSI](https://img.shields.io/badge/Tabela%20de%20Cores%20ANSI-raccoon.ninja-111827?style=flat-square&logo=python&logoColor=3776AB)](https://raccoon.ninja/pt/post/dev/tabela-de-cores-ansi-python/) `projeto/cores.py`
+### ![Python](https://img.shields.io/badge/cores.py-3776AB?style=flat-square&logo=python&logoColor=black) [![Referência ANSI](https://img.shields.io/badge/Tabela%20de%20Cores%20ANSI-raccoon.ninja-111827?style=flat-square&logo=python&logoColor=3776AB)](https://raccoon.ninja/pt/post/dev/tabela-de-cores-ansi-python/) `auto/python/cores.py`
 
 Módulo de **constantes de cores ANSI** para saída formatada no terminal. Define variáveis como `Verde`, `Amarelo`, `Negrito`, `Reset`, etc., importadas por `automação.py` para colorir as mensagens de progresso impressas no console durante o envio dos e-mails.
 
-### ![Python](https://img.shields.io/badge/docstring.py-3776AB?style=flat-square&logo=python&logoColor=black) `projeto/docstring.py` & `projeto/docstring.ipynb`
+### ![Python](https://img.shields.io/badge/docstring.py-3776AB?style=flat-square&logo=python&logoColor=black) `auto/python/docstring.py` & `auto/ipynb/docstring.ipynb`
 
 Documentação narrada do desafio: descreve o objetivo do projeto, as bibliotecas utilizadas e o passo a passo do fluxo de automação (acessar o sistema → navegar até os relatórios → baixar a base → calcular indicadores → enviar e-mail). Disponível tanto em script `.py` quanto em notebook `.ipynb` para leitura interativa.
 
@@ -136,7 +141,7 @@ Documentação narrada do desafio: descreve o objetivo do projeto, as biblioteca
 Abre o Google Chrome  ──►  Acessa a pasta do Drive (Vendas.xlsx)
       │
       ▼
-pandas.read_excel("projeto/Vendas.xlsx")
+pandas.read_excel("auto/spec/Vendas.xlsx")
       │
       ▼
 faturamento_empresa = soma da coluna "Valor Final"
@@ -169,6 +174,28 @@ A cada e-mail enviado com sucesso, `automação.py` abre uma nova aba e acessa a
 
 > [!CAUTION]
 > A URL do webhook em `automação.py` é pessoal e vinculada à conta Pushcut do autor. Para reutilizar o projeto, substitua `webhook_url` por um webhook próprio criado no app Pushcut (iOs only🔺).
+
+<h2 align="center">🖥️📱 Telas da Notificação <br>
+<img src="https://img.shields.io/badge/📸Screenshots-111827?style=for-the-badge&logoColor=white" alt="Screenshots Badge"/></h2>
+
+<table align="center">
+<tr>
+<th align="center">💻 Computador</th>
+<th align="center">📱 Celular</th>
+</tr>
+<tr>
+<td align="center">
+<img src="img/pushcut_notify.jpeg" width="400" alt="Notificação disparada a partir do computador">
+<br>
+<sub>Webhook disparado pelo <code>automação.py</code> assim que um e-mail é enviado com sucesso.</sub>
+</td>
+<td align="center">
+<img src="img/pushcut_notify_phone.jpeg" width="220" alt="Notificação push recebida no iPhone">
+<br>
+<sub>Notificação push recebida no iPhone via app Pushcut.</sub>
+</td>
+</tr>
+</table>
 
 <h2 align="center">▶️ Como rodar o projeto: <br>
 <img src="https://img.shields.io/badge/Como_Rodar-111827?style=for-the-badge&logo=windowsterminal&logoColor=white" alt="Como Rodar Badge"/></h2>
@@ -219,24 +246,21 @@ cd caminho/para/a/pasta/Projeto
 # cd ~/Desktop/Projeto
 
 # 3️⃣ Confira se os arquivos estão no lugar certo 📂
-ls projeto
+ls auto/python auto/ipynb auto/spec
 
 # Você deve ver algo como:
-# automação.py
-# apoio.py
-# cores.py
-# docstring.py
-# docstring.ipynb
-# Vendas.xlsx
+# auto/python: automação.py  apoio.py  cores.py  docstring.py
+# auto/ipynb: docstring.ipynb
+# auto/spec: Vendas.xlsx
 
 # 4️⃣ Instale as dependências do projeto 📦
 pip install pandas pyautogui pyperclip openpyxl
 
 # 5️⃣ (Opcional) Verifique se a planilha existe
-ls projeto/Vendas.xlsx
+ls auto/spec/Vendas.xlsx
 
 # 6️⃣ Execute o script 🚀
-python3 projeto/automação.py
+python3 auto/python/automação.py
 
 # ⚠️ Importante: mantenha o mouse parado e não minimize as janelas
 # durante a execução — o script controla o teclado e o mouse via PyAutoGUI.

@@ -25,7 +25,7 @@ pyautogui.press("enter")
 sleep(4)
 pyautogui.press("enter")
 
-caminho_rota = ("projeto/Vendas.xlsx")
+caminho_rota = ("auto/spec/Vendas.xlsx")
 
 tabela_faturamento_empresa = pandas.read_excel(caminho_rota)
 faturamento_empresa = tabela_faturamento_empresa["Valor Final"].sum()
@@ -35,7 +35,18 @@ print(f"\n {Negrito}Faturamento da Empresa:{Reset} {Verde}R${faturamento_empresa
 
 print(f"\n {Negrito}Produtos da empresa (em quantidade): {Reset}{Amarelo}{quantidade_empresa_produtos}{Reset} Produtos 📦", end=" \n ")
 
-remetente = f"lucaspaguetti2@gmail.com"
+remetentes_ficticios = [
+    f"ana.silva@gmail.com",
+    f"bruno.souza@gmail.com",
+    f"carla.oliveira@gmail.com",
+    f"diego.santos@gmail.com",
+    f"elisa.pereira@gmail.com",
+    f"felipe.costa@gmail.com",
+    f"gabriela.almeida@gmail.com",
+    f"hugo.ribeiro@gmail.com",
+    f"isabela.carvalho@gmail.com",
+    f"joao.rodrigues@gmail.com",
+]
 
 assunto = f"Relatório de Vendas – Julho 💸📊"
 corpo = f"""Prezados,
@@ -54,17 +65,20 @@ Atenciosamente,
 Lucas Paguetti Pereira.
 """
 
-emails = [remetente] * 10
+emails = remetentes_ficticios
+
+acessar_gmail = "https://mail.google.com/mail/u/0/#inbox"
+
+pyautogui.hotkey("command", "t")
+sleep(1)
 
 for indice_email, email in enumerate(emails, 1):
     print(f"\n {Negrito}Enviando e-mail {indice_email}/10 para {email}{Reset}")
 
-    pyautogui.hotkey("command", "t")
-    sleep(1)
-
-    acessar_gmail = "https://mail.google.com/mail/u/0/#inbox"
-
-    pyautogui.write(acessar_gmail)
+    pyautogui.hotkey("command", "l")
+    sleep(0.5)
+    pyperclip.copy(acessar_gmail)
+    pyautogui.hotkey("command", "v")
     pyautogui.press("enter")
     sleep(20)
     pyautogui.click(x=100, y=230)
@@ -88,10 +102,12 @@ for indice_email, email in enumerate(emails, 1):
 
     pyautogui.hotkey("command", "enter")
 
-    print(f"\n {Negrito}E-mail {indice_email}/5{Reset} {Verde}enviado com sucesso! ✅📧🤖 {Reset}\n", end=" ")
+    print(f"\n {Negrito}E-mail {indice_email}/10{Reset} {Verde}enviado com sucesso! ✅📧🤖 {Reset}\n", end=" ")
 
-    pyautogui.hotkey("command", "t")
-    sleep(1)
+    sleep(4)
+
+    pyautogui.hotkey("command", "l")
+    sleep(0.5)
     pyperclip.copy(webhook_url)
     pyautogui.hotkey("command", "v")
     pyautogui.press("enter")
